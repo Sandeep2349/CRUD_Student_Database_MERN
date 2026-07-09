@@ -1,4 +1,4 @@
-const API_URL = "https://student-api-backend-19za.onrender.com/students";
+const API_BASE = "https://student-api-backend-19za.onrender.com/students";
 
 async function handleResponse(response) {
   const data = await response.json().catch(() => ({}));
