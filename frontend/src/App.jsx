@@ -1,4 +1,4 @@
-import useStudents from './hooks/useStudents';
+import useStudents from './Hooks/useStudents';
 import StudentForm from './components/StudentForm';
 import StudentList from './components/StudentList';
 import './App.css';
